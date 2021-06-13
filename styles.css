@@ -23,4 +23,9 @@
       text-align: right;
   }
 
- 
+  footer {
+    padding: 30px;
+    text-align: right;
+    background: #13293d;
+    color: #fff;
+  }
