@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+    
+  }
+
+  header {
+    padding: 15px;
+    text-align: center;
+    background: aqua;
+    color: black
+  }
+  
+
+  nav ul {
+      display: inline-block;
+      text-align: right;
+
+  }
+
+  main {
+      display: inline-block;
+      text-align: right;
+  }
+
+ 
