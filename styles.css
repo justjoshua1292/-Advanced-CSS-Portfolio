@@ -1,7 +1,8 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration-color: cornflowerblue;
-    color:blueviolet
+    color:blueviolet;
+    
 }
 
 
@@ -13,7 +14,13 @@ h1 {
     color:blueviolet;
 }
 
+.Image-1 {
+    size: 0px;
+}
 
+.Image-2 {
+    
+}
 
 #Header {
     background-color: aquamarine;
