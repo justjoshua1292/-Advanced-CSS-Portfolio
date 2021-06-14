@@ -1,3 +1,13 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+ul {
+    list-style-type:none;
+}
+
+
 #Header {
     background-color: aquamarine;
     height: 60px;
@@ -31,11 +41,63 @@
     width: 100%;
     height: 100px;
     background-image: url("https://kinsta.com/wp-content/uploads/2020/06/banner-sizes.jpg");
+    margin: 0px;
 }
   
+#About-Me-Section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+#About-Me-Title {
+    width:25%;
+    border-right: 5px solid cornflowerblue;
+}
+
+#Paragraph {
+    width: 65%;
+}
+
+#Work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+
+#Work-Section {
+    width:25%;
+    border-right: 5px solid cornflowerblue;
+}
+
+#Paragraph-2 {
+    width: 65%;
+}
+
+
 footer {
-    padding: 30px;
+    padding: 20px;
     text-align: right;
-    background: #13293d;
-    color: #fff;
+    background: aqua;
+    color: black;
   }
+
+  @media screen and (max-width: 600px) {
+      
+    footer {
+        background: black;
+    }
+
+    #Header {
+        color: teal;
+    }
+
+
+}
