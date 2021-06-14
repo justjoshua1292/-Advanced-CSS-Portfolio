@@ -1,29 +1,39 @@
-* {
-    box-sizing: border-box;
-    background-color: cornflowerblue;
-    
-  }
+#Header {
+    background-color: aquamarine;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
-  header {
-    padding: 15px;
-    text-align: center;
-    background: aqua;
-    color: black
-  }
+#Header-Name {
+    background-color: darkgrey;
+    height: 40px;
+}
+
+
+#Header-Links {
+    min-width: 30%;
+}
+
+#Header-List {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+#Joshua {
+    margin: 0px;
+
+}
+
+#Placeholder-1 {
+    width: 100%;
+    height: 100px;
+    background-image: url("https://kinsta.com/wp-content/uploads/2020/06/banner-sizes.jpg");
+}
   
-
-  nav ul {
-      display: inline-block;
-      text-align: right;
-
-  }
-
-  main {
-      display: inline-block;
-      text-align: right;
-  }
-
-  footer {
+footer {
     padding: 30px;
     text-align: right;
     background: #13293d;
