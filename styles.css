@@ -145,9 +145,11 @@ h1 {
     margin-bottom:5px;
     margin-left: 5px ;
     margin-right: 5px;
+    border: blueviolet 10px solid;
 
 
 }
+
 
 #Resume {
     display: flex;
@@ -187,17 +189,13 @@ footer {
     justify-content: right;
     font-size: 15px;
     orientation: portrait;
+    width: 20%;
+    height:20%;
 
 
 
     }
 }
-
-@media (hover: hover) {
-    button:hover {
-      border: 3px solid aqua;
-    }
-  }
 
 
 
