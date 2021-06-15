@@ -52,7 +52,7 @@ h1 {
 
 #Placeholder-1 {
     width: 100%;
-    height: 400px;
+    height: 200px;
     background-image: url("https://kinsta.com/wp-content/uploads/2020/06/banner-sizes.jpg");
     margin: 0px;
     position: relative;
@@ -88,7 +88,12 @@ h1 {
 
 #Paragraph-1 {
     width: 65%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
 }
+
 
 #Work {
     display: flex;
@@ -107,6 +112,10 @@ h1 {
 
 #Paragraph-2 {
     width: 65%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
 }
 
 #Contact-Me {
@@ -126,6 +135,19 @@ h1 {
 
 #Paragraph-3 {
     width: 65%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
+}
+
+.Image-1 {
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
+
+
 }
 
 #Resume {
@@ -140,10 +162,15 @@ h1 {
 #Resume-Section {
     width:35%;
     border-right: 5px solid black;
+    
 }
 
 #Resume-Tab {
     width: 65%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
 }
 
 
@@ -154,15 +181,17 @@ footer {
     color: black;
   }
 
-  @media screen and (max-width: 600px) {
-      
-    footer {
-        background: black;
+  
+
+    @media screen and (max-width: 550px) {
+        * {
+          background-color: purple;
+          font-family: monospace;
+          text-decoration-color: white;
+        }
+    
     }
 
-    #Header {
-        color: teal;
-    }
 
 
-}
+    
