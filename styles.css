@@ -127,7 +127,6 @@ h1 {
     margin-top: 35px;
 }
 
-
 #Contact-Me-Section {
     width:35%;
     border-right: 5px solid black;
@@ -181,16 +180,28 @@ footer {
     color: black;
   }
 
-  
+  @media screen and (max-width: 768px) {
+   body, main, header {
+    flex-direction: row-reverse;
+    text-align: left;
+    justify-content: right;
+    font-size: 15px;
+    orientation: portrait;
 
-    @media screen and (max-width: 550px) {
-        * {
-          background-color: purple;
-          font-family: monospace;
-          text-decoration-color: white;
-        }
-    
+
+
     }
+}
+
+@media (hover: hover) {
+    button:hover {
+      border: 3px solid aqua;
+    }
+  }
+
+
+
+
 
 
 
