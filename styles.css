@@ -2,7 +2,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration-color: cornflowerblue;
     color:blueviolet;
-    
+
 }
 
 
@@ -30,12 +30,6 @@ h1 {
     height: 40px;
 }
 
-#Contact-Info {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-}
-
 #Header-Links {
     min-width: 30%;
 }
@@ -59,7 +53,7 @@ h1 {
     width: 100%;
     height: 400px;
     }
-    
+
 
 .Welcome {
     position: absolute;
@@ -69,111 +63,6 @@ h1 {
     font-size: 50px;
     background-color: aqua;
 }
-  
-
-#About-Me-Section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 35px;
-    padding: 10px;
-}
-
-#About-Me-Title {
-    width:35%;
-    border-right: 5px solid black;
-}
-
-#Paragraph-1 {
-    width: 65%;
-    margin-top: 5px;
-    margin-bottom:5px;
-    margin-left: 5px ;
-    margin-right: 5px;
-}
-
-
-#Work {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 35px;
-}
-
-
-#Work-Section {
-    width:35%;
-    border-right: 5px solid black;
-}
-
-#Paragraph-2 {
-    width: 65%;
-    margin-top: 5px;
-    margin-bottom:5px;
-    margin-left: 5px ;
-    margin-right: 5px;
-}
-
-#Contact-Me {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 35px;
-}
-
-#Contact-Me-Section {
-    width:35%;
-    border-right: 5px solid black;
-}
-
-#Paragraph-3 {
-    width: 65%;
-    margin-top: 5px;
-    margin-bottom:5px;
-    margin-left: 5px ;
-    margin-right: 5px;
-}
-
-.Image-1 {
-    margin-top: 5px;
-    margin-bottom:5px;
-    margin-left: 5px ;
-    margin-right: 5px;
-    border: blueviolet 10px solid;
-
-
-}
-
-
-#Resume {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 35px;
-}
-
-#Resume-Section {
-    width:35%;
-    border-right: 5px solid black;
-    
-}
-
-#Resume-Tab {
-    width: 65%;
-    margin-top: 5px;
-    margin-bottom:5px;
-    margin-left: 5px ;
-    margin-right: 5px;
-}
-
 
 footer {
     padding: 10px;
@@ -182,25 +71,34 @@ footer {
     color: black;
   }
 
-  @media screen and (max-width: 768px) {
-   body, main, header {
-    flex-direction: row-reverse;
-    text-align: left;
-    justify-content: right;
-    font-size: 15px;
-    orientation: portrait;
-    width: 20%;
-    height:20%;
 
-
-
-    }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
 }
 
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+    background-color: purple;
+    font-family: monospace;
+  text-decoration-color: white;
+  }
+ }
 
 
 
 
 
-
-    
