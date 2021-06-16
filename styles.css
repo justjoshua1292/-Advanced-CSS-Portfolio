@@ -15,6 +15,114 @@ h1 {
     color:blueviolet;
 }
 
+#About-Me-Section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+    padding: 10px;
+}
+
+#About-Me-Title {
+        width:35%;
+        border-right: 5px solid black;
+}
+
+#Paragraph-1 {
+    width: 65%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
+}
+
+
+#Work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+
+#Work-Section {
+    width:35%;
+    border-right: 5px solid black;
+    justify-content: right;
+}
+
+#Paragraph-2 {
+    width: 65%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
+}
+#Paragraph-2 {
+    width: 65%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
+}
+
+#Contact-Me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+#Contact-Me-Section {
+    width:35%;
+    border-right: 5px solid black;
+}
+
+#Paragraph-3 {
+    width: 65%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
+}
+
+.Image-1 {
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
+    border: blueviolet 10px solid;
+
+}
+
+#Resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+#Resume-Section {
+    width:35%;
+    border-right: 5px solid black;
+    
+}
+
+#Resume-Tab {
+    width: 65%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 5px ;
+    margin-right: 5px;
+}
 
 
 #Header {
@@ -42,6 +150,11 @@ h1 {
 
 #Joshua {
     margin: 0px;
+}
+
+.flex-container {
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 #Placeholder-1 {
@@ -97,6 +210,33 @@ footer {
   text-decoration-color: white;
   }
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
