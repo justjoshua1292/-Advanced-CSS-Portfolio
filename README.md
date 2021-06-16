@@ -1,3 +1,4 @@
+![Screenshot (76)](https://user-images.githubusercontent.com/83887301/122145848-02707100-ce24-11eb-8061-d5a56833af0d.png)
 ![Screenshot (73)](https://user-images.githubusercontent.com/83887301/122133330-7ef65600-ce0a-11eb-8355-6a23d0674a20.png)
 # -Advanced-CSS-Portfolio
 Homework #2 -  Advanced CSS: Portfolio: 
